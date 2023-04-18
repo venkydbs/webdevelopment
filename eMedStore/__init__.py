@@ -10,7 +10,7 @@ DB_NAME = "database.db"
 def eMedStore():
     app = Flask(__name__)
     app.config['SECRET_KEY'] = 'venkat web key'
-    app.config['DATABASE_URL'] = f'postgres://zqxmishasausru:426eda4b64cfa558d3690924e8bfff7471064b7d726cf4998dedca5c488918f6@ec2-52-215-68-14.eu-west-1.compute.amazonaws.com:5432/dassanunr5n99c'
+    app.config['DATABASE_URL'] = f'postgres://vvudleujisdutg:1983a3d757fca6891dbacfbce522e669b03d46b3096b1c889d5b586dee8458fe@ec2-52-50-161-219.eu-west-1.compute.amazonaws.com:5432/dfjpmu0n6fgjh9'
     app.config['SQLALCHEMY_DATABASE_URI'] = f'sqlite:///{DB_NAME}'
     db.init_app(app)
 
